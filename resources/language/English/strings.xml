@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="100">Disconnect</string>
+  <string id="101">SSID</string>
+  <string id="102">Refresh</string>
+  <string id="103">Signal</string>
+  <string id="104">OK</string>
+  <string id="105">Wicd Network Manager</string>
+  <string id="106">State</string>
+  <string id="107">Encryption</string>
+  <string id="201">Enter encryption key</string>
+  <string id="202">You have entered a malformed key!</string>
+  <string id="203">Refreshing...</string>
+  <string id="204">Connection Created</string>
+  <string id="205">Disconnecting....</string>
+  <string id="206">Connecting...</string>
+  <string id="207">Connection failed</string>
+  <string id="208">Active</string>
+  <string id="209">No wireless network found!</string>
+  <string id="300">dbus not available</string>
+  <string id="301">Could not connect to dbus</string>
+  <string id="302">Could not connect to wicd</string>
+  <string id="99999"></string>
+</strings>

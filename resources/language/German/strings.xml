@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="100">Trennen</string>
+  <string id="101">SSID</string>
+  <string id="102">Aktualisieren</string>
+  <string id="103">Signal</string>
+  <string id="104">OK</string>
+  <string id="105">Wicd Network Manager</string>
+  <string id="106">Status</string>
+  <string id="107">Verschlüsselung</string>
+  <string id="201">Enter encryption key</string>
+  <string id="202">Du hast ein ungültiges Passwort eingegeben!</string>
+  <string id="203">Aktualisieren...</string>
+  <string id="204">Verbindung hergestellt</string>
+  <string id="205">Trennen....</string>
+  <string id="206">Verbinden...</string>
+  <string id="207">Verbindung fehlgeschlagen</string>
+  <string id="208">Aktiv</string>
+  <string id="209">Kein Funknetzwerk gefunden!</string>
+  <string id="300">dbus nicht verfügbar</string>
+  <string id="301">Konnte nicht an dbus verbinden</string>
+  <string id="302">Konnte nicht an wicd verbinden</string>
+  <string id="99999"></string>
+</strings>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.linux.wicd" name="Wicd Network Manager" version="15.2.0" provider-name="effectpet">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <summary lang="en">Wicd front-end. Configures wifi from within kodi.</summary>
+    <description lang="en">Wicd front-end. Configures wifi from within kodi.</description>
+  </extension>
+</addon>
