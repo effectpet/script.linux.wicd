@@ -128,7 +128,7 @@ class GUI(xbmcgui.WindowXMLDialog):
         self.setFixLabel(getLS(206))
 
         key = nm.wireless.GetWirelessProperty(network_id, 'key')
-        if key != "":
+        if key != "" and key != None:
             isConnected = nm.connect_wireless(network_id, key)
             if isConnected == False:
                 nm.remove_wireless(network_id)
@@ -139,9 +139,14 @@ class GUI(xbmcgui.WindowXMLDialog):
             kb.doModal()
             if (kb.isConfirmed()):
                 key = kb.getText()
+            else:
+                self.setFixLabel('')
+                self.controlsSetEnabled(True)
+                return False
 
-            if  key == "":
+            if  key == "" or key == None:
                 self.setLabel(getLS(202))
+                self.controlsSetEnabled(True)
                 return False
             else:
                 isConnected = nm.connect_wireless(network_id, key)
